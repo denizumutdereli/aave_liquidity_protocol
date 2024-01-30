@@ -1,0 +1,6 @@
+npm init -y
+npx hardhat init
+npm i @aave/core-v3 dotenv
+npx hardhat run --network sepolia scripts/deploy.js
+
+Market Liquidity contrat deployed successfully to address 0x80175b46021055c46E1348E12eEB9aEE976D9756
